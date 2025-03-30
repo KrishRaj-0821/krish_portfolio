@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Raj - Portfolio</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav>
+        <div class="logo"><img src="logo.jpg"></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Hey, This is <span>KRISH RAJ</span></h1>
+            <p class="roles">
+                Web Developer | Programmer | Freelancer
+            </p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <a href="https://www.programiz.com/online-compiler/3pgWM64iQYlOI" target="_blank"><img src="calculator.png" alt="Project 1"></a>
+                <h3>Matrix Calculator</h3>
+                <p>Simple c program helps to calculate Matrit sum, multiplication, Transpose</p>
+                
+            </div>
+            <div class="project-card">
+                <a href="https://www.programiz.com/online-compiler/0RZwYkUcrC84p" target="_blank"><img src="attandnace.png" alt="Project 1"></a>
+                <h3>Attandance Marker</h3>
+                <p>Simple C program helps to take records of student.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="about-container">
+        <!-- Left Side: Image -->
+        <div class="about-image">
+            <img src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?t=st=1743270782~exp=1743274382~hmac=156b984339496540b704295145a98237f8254db56a5518cc67d0238d0d8d0c2e&w=1060" alt="My Profile">
+        </div>
+
+        <!-- Right Side: Text Content -->
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate <strong>Web Developer</strong> and <strong>Programmer</strong> with expertise in
+                <strong>C</strong>, <strong>C++</strong>, and <strong>Python</strong> languages. I have hands-on experience in
+                developing both <strong>frontend</strong> and <strong>backend</strong> applications, ensuring high-quality,
+                responsive, and scalable web solutions. I am always eager to learn and explore new technologies to enhance my
+                development skills.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" onsubmit="return validateForm()">
+        <!-- Name Field -->
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <!-- Email Field -->
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!-- Message Field -->
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit">Send</button>
+    </form>
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com/error_code21/" target="_blank" class="social-link">
+                <img src="insta.jpg" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/@Error_code21" target="_blank" class="social-link">
+                <img src="yt logo.png" alt="YouTube">
+            </a>
+            <a href="https://www.linkedin.com/in/krish-raj-4932a6322/" target="_blank" class="social-link">
+                <img src="linkedin logo.jpg" alt="LinkedIn">
+            </a>
+        </div>
+</section>
+
+
+
+    <footer>
+        <p>© 2025 Krish Raj. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
